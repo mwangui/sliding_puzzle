@@ -1,16 +1,17 @@
 body {
-
+    font-family: sans-serif;
 }
+
 
 .SlidingPuzzleFigure{
     position: relative;
-    top: 32px;
-    left: 32px;
-    padding: 8px;
-    background: black;
+    top: 86px;
+    left: 8px;
+    padding: 9.2px 9px 16px 9px;
+    background: #000;
     border-radius: 5px;
     height: 199px;
-    width: 202px;
+    float: left;
 }
 
 figure {
@@ -31,11 +32,12 @@ figure {
 
 .Tile {
     position: relative;
-    padding: 8px;
+    padding: 8.8px 18.7px 7.58px 18.7px;
+
     background: #fff;
     text-align: center;
     border: 6px outset #ccc;
-    font-size: 34px;
+    font-size: 34.5px;
     font-family: sans-serif;
 }
 
@@ -45,4 +47,23 @@ figcaption {
     font-size: 20px;
     font-family: sans-serif;
     font-style: oblique;
+    word-spacing: -2.99px
+}
+
+
+section {
+    width: 100%;
+    margin-top: 80px;
+}
+.main {
+    width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sample-image {
+    float: left;
+}
+.two-columns {
+    width: 50%;
+    float: left;
 }

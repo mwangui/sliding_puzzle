@@ -1,0 +1,29 @@
+{
+  "name": "sliding_puzzle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwangui/sliding_puzzle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwangui/sliding_puzzle/issues"
+  },
+  "homepage": "https://github.com/mwangui/sliding_puzzle#readme",
+  "dependencies": {
+    "jsdom": "^15.2.1",
+    "karma": "^4.4.1",
+    "karma-coverage": "^2.0.1"
+  },
+  "devDependencies": {
+    "jasmine-core": "^3.5.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^2.0.1"
+  }
+}
