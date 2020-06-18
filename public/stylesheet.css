@@ -50,30 +50,36 @@ figcaption {
     word-spacing: -2.99px
 }
 
-
 section {
     width: 100%;
 }
+
 .main {
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 115px;
 }
-.main li { color: #000; }
+
+.main li { color: #000; cursor: pointer; }
+.main li:hover { color: #999; cursor: pointer; }
+
 .sample-image {
     float: left;
 }
+
 .two-columns {
     width: 50%;
     float: left;
 
 }
+
 .under-line {
     width: 300px;
     margin: 0px;
     padding: 0px;
 }
+
 .description {
     font-size: 13px;
     font-style: normal;
