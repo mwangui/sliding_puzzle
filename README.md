@@ -8,7 +8,7 @@ Make the markup below appear as the sliding puzzle in the screenshot: "expected 
 - Any valid CSS is permitted
 - Please do not make any changes to the html in the body tag
 
-Result is in the: public/main.js
+Result is in the public/main.js
 
 Github: https://github.com/mwangui/sliding_puzzle
 
