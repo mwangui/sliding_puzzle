@@ -1,3 +1,5 @@
+// Code by Ming Wang
+
 window.onload = function() {
 const buttons = document.querySelectorAll('.Tile');
 const space = document.getElementsByClassName('Tile')[0].offsetWidth;
