@@ -1,5 +1,4 @@
-// Code by Ming Wang
-
+// © 2019. All rights reserved. Coded by Ming Wang.
 window.onload = function() {
 const buttons = document.querySelectorAll('.Tile');
 const space = document.getElementsByClassName('Tile')[0].offsetWidth;
@@ -14,7 +13,6 @@ let clickTime = 0;
 let afterMoveXPosition;
 let className;
 let classNumber;
-
 
 if ( clickTime == 1) {
     temp[temp.length - 1] = 1;
@@ -64,8 +62,6 @@ for (const button of buttons) {
         }
     });
 }
-    }
-
 
 function moveToLeft(event, space, startPoint, afterMoveXPosition, classNumber) {
     afterMoveXPosition = startPoint[classNumber -1][0] -= space;
