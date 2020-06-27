@@ -61,6 +61,7 @@ for (const button of buttons) {
             }
         }
     });
+  }
 }
 
 function moveToLeft(event, space, startPoint, afterMoveXPosition, classNumber) {
